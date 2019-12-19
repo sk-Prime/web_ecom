@@ -1,0 +1,74 @@
+.header {
+	display:grid;
+	grid-template-columns:1.5fr 1fr 1fr 1fr 10fr 1fr 1fr 1fr;
+	background: tomato;
+	color: white;
+	font-family: Calibri;
+	font-size: 15px;
+	text-align:center;
+	align-items: center;
+	padding:1em;
+}
+.logo {
+	font-family:impact;
+	font-size:60px;
+	grid-column:1/5;
+}
+.searchbox > input[type=text] {
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid gold;
+  border-radius: 4px;
+  font-size: 18px;
+  background-color: white;
+  background-image: url('img\search.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+}
+.button > a:hover {
+	background-color: gold;
+	padding:12px;
+}
+a {
+	text-decoration: none;
+	color:white;
+	font-size:18px;
+	font-family:impact;
+}
+#cart {
+	text-decoration: none;
+	color:red;
+	font-size:12px;
+	font-family:comic;
+}
+
+#cart:hover {
+	background:red;
+	color:white;
+}
+
+.middle {
+	padding: 1em;
+	display:grid;
+	grid-template-columns: 1fr 6fr;
+	grid-gap: 1em;
+}
+.sidebar {
+	background: #ff6347;
+	font-family: Arial;
+	font-size:14px;
+	color:white;
+}
+
+.mainbody {
+	padding:1em;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+h2 {
+	font-family:Sans-serif;
+}
+img {
+	width:75%;
+}
